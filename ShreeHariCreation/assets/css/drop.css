@@ -1,0 +1,27 @@
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgb(249, 247, 247); /* Transparent background */
+min-width: 160px;
+box-shadow: 0px 1px 2px 0px rgba(245, 241, 241, 0.2);
+border-radius: 2px;
+}
+
+.dropdown-content a {
+color: rgb(21, 20, 20);
+padding: 4px 16px;
+text-decoration: none;
+display: block;
+
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
